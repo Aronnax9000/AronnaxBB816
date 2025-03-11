@@ -16,9 +16,14 @@ There are sixteen 64 KB banks in a megabyte.
                   RAM (write always on ~WR, read when E signal is not active)
 
 Board uses A0-A19 (20 lines). 
-Active when MEG0 = ~A23 * ~A22 * ~A21 * ~A21.
-BANK0_UPPER = ~BANK0 * A15
-BANK0_LOWER = ~BANK0 * ~A15
 
+Active when MEG0 = ~A23 * ~A22 * ~A21 * ~A20.
+MEG0_UPPER = MEG0 * A19
+MEG0_LOWER = MEG0 * ~A19
 
-I/O Active when BANK0_LOWER * A8 * !A9 * ~A10 * ~A11 * ~A12 * ~A13 * ~A14
+~BANK0_UPPER = ~BANK0 + ~A15
+~BANK0_LOWER = ~BANK0 + A15
+
+~EEPROM_CS = ~E + ~BANK0_UPPER
+
+I/O Active when BANK0_LOWER * A8 * ~A9 * ~A10 * ~A11 * ~A12 * ~A13 * ~A14
