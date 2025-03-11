@@ -1,0 +1,75 @@
+2022-03-20:
+    * New CLK phase
+    * Glue logic rework
+
+2022-02-25:
+    * VDA, VPA signals generate VA and SYNC
+    * Start RD, WR rework
+
+2022-02-04:
+    * Add Teensy bus monitor
+    * Rework power distribution
+
+2022-01-28:
+    * Add RAM
+    * Basic WR pulse generation
+
+2022-01-20:
+    * Add ROM
+    * Update debug buffers from 245 to 541
+    * Add pull-up on interrupt pins
+    * Add temporary address decoding
+
+2022-01-13:
+    * Add Emulation mode LED
+
+2021-12-10:
+    * Add debug display
+    * Add tester board
+    * Sync with breadboard state
+
+2021-11-29:
+    * Add clean clock switching with JK Flip Flops
+    * Add DIP switch to set clock setting on boot
+    * Re-number components
+
+2021-11-24:
+    * Add MAX705 supervisor
+    * Add clocked reset circuit
+    * Update schematic to use local labels
+
+2021-11-16:
+    * Add clock multiplexer
+    * Add fast clock divider
+    * Change to 20Mhz clock oscillator
+
+2021-11-09:
+    * Move clock module to own hierarchical sheet
+    * Add 28Mhz oscillator, 555 timer circuit, and pulse button debouncing
+
+2021-10-21:
+    * Switch to ACT buffer
+    * Add DS1035-10 for delayed clock, used in latch enable and buffer output enable
+    * Switch 74AC08 for 74AC11
+
+2021-09-27:
+    * Add clock frequency multiplier
+    * Control timing of RDY_IN changes
+    * Add RDY_IN to databus demultiplexing circuit
+
+2021-09-03:
+    * Add demultiplexing logic for RDY bi-directional pin to RDYIN input and WAITN output
+
+2021-08-20:
+    * Add pull-up/down resistor networks to address, data pins, BE and RWB
+
+2021-08-08:
+    * Add Bus Enable to the logic for data bus buffer & bank address latch
+
+2021-07-31:
+    * Add data pins buffer
+    * Add pull-down resistors on data bus
+
+2021-07-20:
+    * First version of the schematic
+    * Bank address latch circuit
