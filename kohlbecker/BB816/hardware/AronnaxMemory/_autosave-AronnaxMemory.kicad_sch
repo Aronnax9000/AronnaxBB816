@@ -10202,12 +10202,6 @@
 		(uuid "002df93f-3359-4f13-90a1-8898bfaf0715")
 	)
 	(junction
-		(at 389.89 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00e439ae-a0d9-431c-a861-73cbc5102d83")
-	)
-	(junction
 		(at 58.42 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10884,6 +10878,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec891e10-7bd6-48a6-91a5-1577ddacdc18")
+	)
+	(junction
+		(at 389.89 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edc33827-db48-4e26-807c-800161a05c55")
 	)
 	(junction
 		(at 58.42 232.41)
@@ -21880,7 +21880,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "76229655-897b-4bbb-a74d-7a10969c12d0")
 		(property "Reference" "J9"
@@ -22489,8 +22489,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
-		(at 384.81 241.3 0)
-		(mirror y)
+		(at 384.81 243.84 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22498,7 +22497,7 @@
 		(dnp no)
 		(uuid "87304be9-d7db-4cae-bf4e-a593bcdc65d5")
 		(property "Reference" "J5"
-			(at 383.286 254 0)
+			(at 383.286 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22506,7 +22505,7 @@
 			)
 		)
 		(property "Value" "I/O ~{CS}"
-			(at 382.524 256.286 0)
+			(at 382.524 228.854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22514,7 +22513,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical"
-			(at 384.81 241.3 0)
+			(at 384.81 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22523,7 +22522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 384.81 241.3 0)
+			(at 384.81 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22532,7 +22531,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 384.81 241.3 0)
+			(at 384.81 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
