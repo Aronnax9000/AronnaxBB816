@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "BB816")(type "KiCad")(uri "/home/alan/git/AronnaxBB816/kohlbecker/BB816/hardware/BB816.kicad_sym")(options "")(descr ""))
   (lib (name "cd4072B")(type "KiCad")(uri "${KIPRJMOD}/cd4072B.kicad_sym")(options "")(descr ""))
+  (lib (name "my")(type "KiCad")(uri "/home/alan/git/parts/symbols/my.kicad_sym")(options "")(descr ""))
 )
