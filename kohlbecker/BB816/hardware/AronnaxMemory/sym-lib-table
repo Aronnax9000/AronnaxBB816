@@ -3,4 +3,5 @@
   (lib (name "BB816")(type "KiCad")(uri "${KIPRJMOD}/BB816.kicad_sym")(options "")(descr ""))
   (lib (name "my")(type "KiCad")(uri "${KIPRJMOD}/parts/symbols/my.kicad_sym")(options "")(descr ""))
   (lib (name "74xx")(type "Legacy")(uri "${KIPRJMOD}/74xx/74xx.lib")(options "")(descr ""))
+  (lib (name "TL28L92IFR")(type "KiCad")(uri "${KIPRJMOD}/TL28L92IFR.kicad_sym")(options "")(descr ""))
 )
