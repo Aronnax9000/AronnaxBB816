@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "debugs_led")(type "KiCad")(uri "${KIPRJMOD}/debugs_led.kicad_sym")(options "")(descr ""))
-)
