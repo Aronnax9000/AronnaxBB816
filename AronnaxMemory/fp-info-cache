@@ -1,4 +1,4 @@
-25251217650432397
+25256451731858537
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -101290,6 +101290,20 @@ footprints.pretty
 20
 13
 footprints.pretty
+6502fast2_IO_PCBEdge
+6502fast2 I/O connector
+6502fast2
+0
+35
+33
+footprints.pretty
+6502fast2_IO_PCBEdgeSocket
+5-5530843-3-3
+Connector
+0
+34
+33
+footprints.pretty
 163179PHEX
 163-179PH-EX
 Connector
@@ -101380,6 +101394,13 @@ DIP-8 / DIP-14 crystal oscillator footprint
 0
 14
 12
+footprints.pretty
+TO-220-3_Horizontal_TabDown_NoHole
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
 footprints.pretty
 Teensy2.0++
 20

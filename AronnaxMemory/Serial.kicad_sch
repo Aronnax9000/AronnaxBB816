@@ -187,7 +187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a82b6848-2dc2-4321-9b2b-83bb331da150")
-		(property "Reference" "X2"
+		(property "Reference" "X1"
 			(at 63.5 66.04 0)
 			(effects
 				(font
@@ -246,7 +246,7 @@
 		(instances
 			(project "AronnaxMemory"
 				(path "/f3290a4d-b1bc-4282-9c8a-cd936fe74ce9/e061d0f6-d3bd-4b6b-b744-11d31e8b3e33"
-					(reference "X2")
+					(reference "X1")
 					(unit 1)
 				)
 			)

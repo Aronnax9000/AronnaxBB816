@@ -624,6 +624,26 @@
     [
       "f9a8a04a-4455-4bcc-a38c-1709104846b8",
       "ACIA1"
+    ],
+    [
+      "a99f07ca-62f3-45e0-ac31-e91f1a3beae7",
+      "ROM"
+    ],
+    [
+      "16903d86-bbac-4834-85db-a2d5a6ddeaea",
+      "Clock"
+    ],
+    [
+      "b91591f6-5451-4120-a9f8-b38efb112a57",
+      "RAM"
+    ],
+    [
+      "fb926456-8b3b-459e-9ac5-079c5dc87633",
+      "VIA"
+    ],
+    [
+      "4d13b24e-b611-44da-beaa-f14c6177f206",
+      "IO_SEL"
     ]
   ],
   "text_variables": {}
