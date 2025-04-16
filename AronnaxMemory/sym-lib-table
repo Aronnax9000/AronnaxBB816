@@ -7,4 +7,5 @@
   (lib (name "my")(type "KiCad")(uri "${KIPRJMOD}/symbol_libs/my.kicad_sym")(options "")(descr ""))
   (lib (name "74xx")(type "KiCad")(uri "${KIPRJMOD}/symbol_libs/74xx.kicad_sym")(options "")(descr ""))
   (lib (name "AronnaxLibrary")(type "KiCad")(uri "${KIPRJMOD}/symbol_libs/AronnaxLibrary.kicad_sym")(options "")(descr ""))
+  (lib (name "Jumper3_254mm")(type "KiCad")(uri "${KIPRJMOD}/symbol_libs/Jumper3_254mm.kicad_sym")(options "")(descr ""))
 )

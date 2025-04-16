@@ -4,4 +4,5 @@
   (lib (name "footprints.pretty")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
   (lib (name "6502fast3cpu")(type "KiCad")(uri "${KIPRJMOD}/6502fast3cpu.pretty")(options "")(descr ""))
   (lib (name "PCB_Edge_Connectors")(type "KiCad")(uri "${KIPRJMOD}/PCB_Edge_Connectors.pretty")(options "")(descr ""))
+  (lib (name "Jumper3_254mm")(type "KiCad")(uri "${KIPRJMOD}/Jumper3_254mm.pretty")(options "")(descr ""))
 )

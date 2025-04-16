@@ -1,4 +1,25 @@
-25256451731858537
+25265175337475662
+6502fast3cpu
+6502fast2_IO_PCBEdge
+6502fast2 I/O connector
+6502fast2
+0
+35
+33
+6502fast3cpu
+6502fast2_IO_PCBEdgeSocket
+5-5530843-3-3
+Connector
+0
+34
+33
+6502fast3cpu
+TO-220-3_Horizontal_TabDown_NoHole
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65477,6 +65498,13 @@ solder jumper open
 0
 3
 3
+Jumper3_254mm
+Jumper3_254mm
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -70776,6 +70804,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCB_Edge_Connectors
+PCB_Edge_36pin
+6502fast2 I/O connector
+6502fast2
+0
+36
+36
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
